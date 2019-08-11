@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  nigewebapp:
+    image: ${DOCKER_REGISTRY}nigewebapp
+    build:
+      context: .\NigeWebApp
+      dockerfile: Dockerfile
